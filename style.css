@@ -1,0 +1,47 @@
+form {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  } 
+  
+  input {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .user {
+    flex-basis: 220px;
+    background: #170677;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    color: #fdfdfd;
+    font-family: cursive;
+  }
+  
+  .users {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+    
+  .remove {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+    label {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px 5px 100px;
+  }
+  
+  #add {
+    border-radius: 10px;
+    width: 100px;
+  }
+
+ 
